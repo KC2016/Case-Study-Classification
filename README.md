@@ -89,8 +89,7 @@ We explore different options seeking to find a better score.<br/>
 
 - Python <br/> 
 [hypothesis 1](python_files/case_study_classification.ipynb): data cleaning and data wrangling<br/> 
-[hypothesis 2](python_files/case_study_classification_B.ipynb): feature engineering, handiling outliers based on box plots for balance columns, dropping columns with unrelated data - mailer type, dropping columns with insufficient data - Q1 balance, dropping columns with multiloinerar data - Q2 balance
-<br/> 
+[hypothesis 2](python_files/case_study_classification_B.ipynb): feature engineering, handiling outliers based on box plots for balance columns, dropping columns with unrelated data - mailer type, dropping columns with insufficient data - Q1 balance, dropping columns with multiloinerar data - Q2 balance<br/> 
 [hypothesis 3](python_files/case_study_classification_A-1.ipynb): upsampling - manual copying of YES records in the data set<br/> 
 [hypothesis 4](python_files/case_study_classification_C.ipynb): binning of Household size<br/>
 [hypothesis 5](python_files/case_study_classification-bin.ipynb): binning and dropping  Avg balance<br/>
