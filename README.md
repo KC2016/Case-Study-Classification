@@ -69,19 +69,20 @@ We explore different options seeking to find a better score.
 
 
 ## Contents
-- [Slides deck]()
-- [SQL queries]()<br/> 
+- [Slides deck](https://docs.google.com/presentation/d/1Jzd05a98Ob2st5BEyBJGPtbX-rolYMsk55iZL7zcYLo/edit?usp=sharing
+)
+- [SQL queries](sql_file/credit_card_data.sql)<br/> 
 - Tableau <br/> 
 [Tableau dashboard]()<br/> 
 [Tableau_questions]()
 - Python <br/> 
-[hypothesis 1](python_files/case_study_classification)<br/> 
-[hypothesis 2](python_files/case_study_classification_B)<br/> 
-[hypothesis 3](python_files/case_study_classification_A-1)<br/> 
-[hypothesis 4](python_files/case_study_classification_C)<br/> 
-[hypothesis 5](python_files/case_study_classification_bin)<br/> 
-[hypothesis 6](python_files/case_study_classification_bins_coulmn_difference)<br/> 
-[hypothesis 7](python_files/case_study_classification_bins_coulmn_sum)<br/> 
+[hypothesis 1](python_files/case_study_classification.ipynb)<br/> 
+[hypothesis 2](python_files/case_study_classification_B.ipynb)<br/> 
+[hypothesis 3](python_files/case_study_classification_A-1.ipynb)<br/> 
+[hypothesis 4](python_files/case_study_classification_C.ipynb)<br/> 
+[hypothesis 5](python_files/case_study_classification_bin.ipynb)<br/> 
+[hypothesis 6](python_files/case_study_classification_bins_coulmn_difference.ipynb)<br/> 
+[hypothesis 7](python_files/case_study_classification_bins_coulmn_sum.ipynb)<br/> 
 
 ## General conclusions
 The best experiment was the one of the hypothesis 5 where we made binning and data wrangling for Q1, Q2, Q3, Q4. This experiment meet the best accuracy score.<br/> 
@@ -94,8 +95,6 @@ Visualizing the existing data
 Creating calculated fields to explore deeper subset of data
 
 Observations - there was almost no distinct pattern that separated customers that accepted the credit card offer or not. It could be observed that customers that already have 2 or more credit cards are more likely to accept the offer. On the other hand, customers with higher average balance are more likely to reject the offer. 
-<br/> 
-<br/> 
 <br/> 
 
 
