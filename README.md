@@ -1,5 +1,5 @@
 # Case-Study - Classification
-Mid-course project: Data Analytics Ironhack Bootcamp, Berlin<br/> 
+### Mid-course project: Data Analytics Ironhack Bootcamp, Berlin<br/> 
 
 ![Ironhack logo](images/banking-project.png)
 
@@ -49,31 +49,32 @@ The data set consists of information on 18,000 current bank customers in the stu
 5. [Python code](https://github.com/ironhack-edu/data_mid_bootcamp_project_classification)
 6. [A Tableau dashboard](https://github.com/ironhack-edu/data_mid_bootcamp_project_classification/blob/master/tableau_classification.md)
 
+<br/> 
+<br/>
 
-## What did we make in the Python 
+## What did we do?
+We used Progressive Regression model to predict which customers accept or reject credit card offers, using the bank credit card holder data set.
+
+### Using Python 
 - read data from xlsx files
 - made data cleaning
 - EDA - exploratory data analysis with seabort and 
 - Categorizing some of the numerical data
 - made data wrangling
 - create a model (Normalizing numerical data, Splitting train and test data, Applying the Progressive Regression model, Evaluating accuracy and testing) 
-
-
-
-
 - run and evaluate the model
 - applied SMOTE to reduce the imbalance
 - made feature engineering (handling outliers, binning, dropping unnecessary data, multicollinearity )
 - run and evaluate the model again<br/> <br/> 
-We explore different options seeking to find a better score.
+We explore different options seeking to find a better score.<br/> 
 
 
-## Contents
+### Contents
 - [Slides deck](https://docs.google.com/presentation/d/1Jzd05a98Ob2st5BEyBJGPtbX-rolYMsk55iZL7zcYLo/edit?usp=sharing
 )
 - [SQL queries](sql_file/credit_card_data.sql)<br/> 
 - Tableau <br/> 
-[Tableau dashboard]()<br/> 
+[Tableau dashboard](https://public.tableau.com/profile/karina.condeixa#!/vizhome/Data-Mid-Bootcamp-Project-Classification2_16190361733800/Dashboard1)<br/> 
 [Tableau_questions]()
 - Python <br/> 
 [hypothesis 1](python_files/case_study_classification.ipynb)<br/> 
@@ -88,13 +89,13 @@ We explore different options seeking to find a better score.
 The best experiment was the one of the hypothesis 5 where we made binning and data wrangling for Q1, Q2, Q3, Q4. This experiment meet the best accuracy score.<br/> 
 
 ## Limitations
-Observations - the data set had a high imbalance for the target variable (95%) which led to rather low accuracy and needed to be handled using SMOTE. Dropping outliers and creating bins slightly improved accuracy, but dropping multicollinear data mostly didn’t. Overall, the accuracy ranged from 69-72% by applying different feature engineering techniques.
+The data set had a high imbalance for the target variable (95%) which led to rather low accuracy and needed to be handled using SMOTE. Dropping outliers and creating bins slightly improved accuracy, but dropping multicollinear data mostly didn’t. Overall, the accuracy ranged from 69-72% by applying different feature engineering techniques.
 
 Tableau
 Visualizing the existing data
-Creating calculated fields to explore deeper subset of data
+Creating calculated fields to explore deeper subset of data.
 
-Observations - there was almost no distinct pattern that separated customers that accepted the credit card offer or not. It could be observed that customers that already have 2 or more credit cards are more likely to accept the offer. On the other hand, customers with higher average balance are more likely to reject the offer. 
+There was almost no distinct pattern that separated customers that accepted the credit card offer or not. It could be observed that customers that already have 2 or more credit cards are more likely to accept the offer. On the other hand, customers with higher average balance are more likely to reject the offer. 
 <br/> 
 
 
