@@ -53,12 +53,12 @@ The data set consists of information on 18,000 current bank customers in the stu
 <br/>
 
 ## What did we do?
-We used Progressive Regression model to predict which customers accept or reject credit card offers, using the bank credit card holder data set.
+We used a Progressive Regression model to predict which customers accept or reject credit card offers, using the bank credit card holder data set.
 
-### Using Python 
+### Python 
 - read data from xlsx files
 - made data cleaning
-- EDA - exploratory data analysis with seabort and 
+- EDA - exploratory data analysis with seaborn and 
 - Categorizing some of the numerical data
 - made data wrangling
 - create a model (Normalizing numerical data, Splitting train and test data, Applying the Progressive Regression model, Evaluating accuracy and testing) 
@@ -67,6 +67,16 @@ We used Progressive Regression model to predict which customers accept or reject
 - made feature engineering (handling outliers, binning, dropping unnecessary data, multicollinearity )
 - run and evaluate the model again<br/> <br/> 
 We explore different options seeking to find a better score.<br/> 
+
+### Tableau
+- Visualize the existing data
+- Create calculated fields to explore a deeper subset of data.
+- Create a dashboard visualizing data about customer that accepted the bank offer.
+
+### SQL
+- Import the database and creating the table
+- Run queries, create views to analyse the data
+
 
 
 ### Contents
@@ -89,20 +99,16 @@ We explore different options seeking to find a better score.<br/>
 The best experiment was the one of the hypothesis 5 where we made binning and data wrangling for Q1, Q2, Q3, Q4. This experiment meet the best accuracy score.<br/> 
 
 ## Limitations
-The data set had a high imbalance for the target variable (95%) which led to rather low accuracy and needed to be handled using SMOTE. Dropping outliers and creating bins slightly improved accuracy, but dropping multicollinear data mostly didn’t. Overall, the accuracy ranged from 69-72% by applying different feature engineering techniques.
+The data set had a high imbalance for the target variable (95%) which led to rather low accuracy and needed to be handled using SMOTE. Dropping outliers and creating bins slightly improved accuracy, but dropping multicollinear data mostly didn’t. Overall, the accuracy ranged from 69-72% by applying different feature engineering techniques.<br/> 
 
-Tableau
-Visualizing the existing data
-Creating calculated fields to explore deeper subset of data.
-
-There was almost no distinct pattern that separated customers that accepted the credit card offer or not. It could be observed that customers that already have 2 or more credit cards are more likely to accept the offer. On the other hand, customers with higher average balance are more likely to reject the offer. 
+Regarding Tableau, there was almost no distinct pattern that separated customers that accepted the credit card offer or not. It could be observed that customers that already have 2 or more credit cards are more likely to accept the offer. On the other hand, customers with higher average balance are more likely to reject the offer. 
 <br/> 
 
 
 
 ## Tools
 
-<img src="images/jupyter.png" width="100"/> <img src="images/python.png" width="100"/> <img src="images/mysql_workbench.png" width="100"/> <img src="images/dbeaver.png" width="100"/> <img src="images/tableau.png"  width="100"/> <img src="images/vsc.png" width="100"/> 
+<img src="images/jupyter.png" width="100"/> <img src="images/python.png" width="100"/> <img src="images/tableau.png"  width="100"/> <img src="images/mysql_workbench.png" width="100"/> <img src="images/dbeaver.png" width="100"/> <img src="images/vsc.png" width="100"/>  
 
 
 
