@@ -52,7 +52,7 @@ The data set consists of information on 18,000 current bank customers in the stu
 <br/> 
 <br/>
 
-## What did we do?
+# What did we do?
 We used a Progressive Regression model to predict which customers accept or reject credit card offers, using the bank credit card holder data set.
 
 ### Python 
@@ -85,7 +85,7 @@ We explore different options seeking to find a better score.<br/>
 - [SQL queries](sql_file/credit_card_data.sql)<br/> 
 - Tableau <br/> 
 [Tableau dashboard](https://public.tableau.com/profile/karina.condeixa#!/vizhome/Data-Mid-Bootcamp-Project-Classification2_16190361733800/Dashboard1)<br/> 
-[Tableau_questions]()
+[Tableau_questions](https://public.tableau.com/profile/davis.pudans#!/vizhome/Case-study-classification-questions/Question8)
 - Python <br/> 
 [hypothesis 1](python_files/case_study_classification.ipynb)<br/> 
 [hypothesis 2](python_files/case_study_classification_B.ipynb)<br/> 
@@ -98,11 +98,14 @@ We explore different options seeking to find a better score.<br/>
 ## General conclusions
 The best experiment was the one of the hypothesis 5 where we made binning and data wrangling for Q1, Q2, Q3, Q4. This experiment meet the best accuracy score.<br/> 
 
+It dealts with the imbalances with SMOTE and removed outliers using IQR. The better hypothesis the 5th one where we did binning using Q-cut to the Household Size column and wrangled the data on columns with the quarterly balances into half-yearly balances.<br/> 
+
 ## Limitations
 The data set had a high imbalance for the target variable (95%) which led to rather low accuracy and needed to be handled using SMOTE. Dropping outliers and creating bins slightly improved accuracy, but dropping multicollinear data mostly didn’t. Overall, the accuracy ranged from 69-72% by applying different feature engineering techniques.<br/> 
 
-Regarding Tableau, there was almost no distinct pattern that separated customers that accepted the credit card offer or not. It could be observed that customers that already have 2 or more credit cards are more likely to accept the offer. On the other hand, customers with higher average balance are more likely to reject the offer. 
+Regarding Tableau, there was almost no distinct pattern that separated customers that accepted the credit card offer or not. It could be observed that customers with low income and low credit ratings are more likely to accept the offer. On the other hand, customers with higher average balance and higher average credit ratings are very unlikely to accept the offer. 
 <br/> 
+
 
 
 
