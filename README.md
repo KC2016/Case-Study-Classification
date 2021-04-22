@@ -53,14 +53,19 @@ The data set consists of information on 18,000 current bank customers in the stu
 ## What did we make in the Python 
 - read data from xlsx files
 - made data cleaning
-- EDA - exploratory data analysis
+- EDA - exploratory data analysis with seabort and 
+- Categorizing some of the numerical data
 - made data wrangling
-- create a model
+- create a model (Normalizing numerical data, Splitting train and test data, Applying the Progressive Regression model, Evaluating accuracy and testing) 
+
+
+
+
 - run and evaluate the model
 - applied SMOTE to reduce the imbalance
-- made feature engineering (removing columns, making bins)
+- made feature engineering (handling outliers, binning, dropping unnecessary data, multicollinearity )
 - run and evaluate the model again<br/> <br/> 
-We explore diferent options seeking to find a better score.
+We explore different options seeking to find a better score.
 
 
 ## Contents
@@ -82,7 +87,14 @@ We explore diferent options seeking to find a better score.
 The best experiment was the one of the hypothesis 5 where we made binning and data wrangling for Q1, Q2, Q3, Q4. This experiment meet the best accuracy score.<br/> 
 
 ## Limitations
-"IN DEVELOPMENT"<br/> 
+Observations - the data set had a high imbalance for the target variable (95%) which led to rather low accuracy and needed to be handled using SMOTE. Dropping outliers and creating bins slightly improved accuracy, but dropping multicollinear data mostly didn’t. Overall, the accuracy ranged from 69-72% by applying different feature engineering techniques.
+
+Tableau
+Visualizing the existing data
+Creating calculated fields to explore deeper subset of data
+
+Observations - there was almost no distinct pattern that separated customers that accepted the credit card offer or not. It could be observed that customers that already have 2 or more credit cards are more likely to accept the offer. On the other hand, customers with higher average balance are more likely to reject the offer. 
+<br/> 
 <br/> 
 <br/> 
 
