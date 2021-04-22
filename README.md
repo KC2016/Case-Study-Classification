@@ -80,7 +80,7 @@ We explore different options seeking to find a better score.
 [hypothesis 2](python_files/case_study_classification_B.ipynb)<br/> 
 [hypothesis 3](python_files/case_study_classification_A-1.ipynb)<br/> 
 [hypothesis 4](python_files/case_study_classification_C.ipynb)<br/> 
-[hypothesis 5](python_files/case_study_classification_bin.ipynb)<br/> 
+[hypothesis 5](python_files/case_study_classification-bin.ipynb)<br/> 
 [hypothesis 6](python_files/case_study_classification_bins_coulmn_difference.ipynb)<br/> 
 [hypothesis 7](python_files/case_study_classification_bins_coulmn_sum.ipynb)<br/> 
 
