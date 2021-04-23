@@ -80,21 +80,20 @@ We explore different options seeking to find a better score.<br/>
 
 
 ### Contents
-- [Slides deck](https://docs.google.com/presentation/d/1Jzd05a98Ob2st5BEyBJGPtbX-rolYMsk55iZL7zcYLo/edit?usp=sharing
-)
+- [Slides deck](https://docs.google.com/presentation/d/1Jzd05a98Ob2st5BEyBJGPtbX-rolYMsk55iZL7zcYLo/edit?usp=sharing)
 - [SQL queries](sql_file/credit_card_data.sql)<br/> 
 - Tableau <br/> 
 [Tableau dashboard](https://public.tableau.com/profile/karina.condeixa#!/vizhome/Data-Mid-Bootcamp-Project-Classification2_16190361733800/Dashboard_1?publish=yes)<br/> 
 [Tableau questions](https://public.tableau.com/profile/davis.pudans#!/vizhome/Case-study-classification-questions/Question8)
 
 - Python <br/> 
-[hypothesis 1](python_files/case_study_classification.ipynb): data cleaning and data wrangling<br/> 
-[hypothesis 2](python_files/case_study_classification_B.ipynb): feature engineering, handiling outliers based on box plots for balance columns, dropping columns with unrelated data - mailer type, dropping columns with insufficient data - Q1 balance, dropping columns with multiloinerar data - Q2 balance<br/> 
-[hypothesis 3](python_files/case_study_classification_A-1.ipynb): upsampling - manual copying of YES records in the data set<br/> 
-[hypothesis 4](python_files/case_study_classification_C.ipynb): binning of Household size<br/>
-[hypothesis 5](python_files/case_study_classification-bin.ipynb): binning and dropping  Avg balance<br/>
-[hypothesis 6](python_files/case_study_classification_bins_coulmn_difference.ipynb): binning and datawrangling (difference in Q1&Q2 and Q3&Q4)<br/> 
-[hypothesis 7](python_files/case_study_classification_bins_coulmn_sum.ipynb): binning + Datawrangling - sum - q1,q2,q3,q4<br/> 
+[model iteration 1](python_files/case_study_classification.ipynb): data cleaning and data wrangling<br/> 
+[model iteration 2](python_files/case_study_classification_B.ipynb): feature engineering, handiling outliers based on box plots for balance columns, dropping columns with unrelated data - mailer type, dropping columns with insufficient data - Q1 balance, dropping columns with multiloinerar data - Q2 balance<br/> 
+[model iteration 3](python_files/case_study_classification_A-1.ipynb): upsampling - manual copying of YES records in the data set<br/> 
+[model iteration 4](python_files/case_study_classification_C.ipynb): binning of Household size<br/>
+[model iteration 5](python_files/case_study_classification-bin.ipynb): binning and dropping  Avg balance<br/>
+[model iteration 6](python_files/case_study_classification_bins_coulmn_difference.ipynb): binning and datawrangling (difference in Q1&Q2 and Q3&Q4)<br/> 
+[model iteration 7](python_files/case_study_classification_bins_coulmn_sum.ipynb): binning + Datawrangling - sum - q1,q2,q3,q4<br/> 
 
 ## General conclusions
 The best experiment was the one of the hypothesis 5 where we made binning and data wrangling for Q1, Q2, Q3, Q4. This experiment meet the best accuracy score.<br/> 
