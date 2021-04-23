@@ -1,11 +1,11 @@
-# Case-Study - Classification
+# Case Study - Classification
 ### Mid-course project: Data Analytics Ironhack Bootcamp, Berlin<br/> 
 
 ![Ironhack logo](images/banking-project.png)
 
 Dolores Umbridge Team: <br/> 
 - Karina Condeixa
-- Davis Pudans
+- Davis Pudansß
 - Prebitha Abraham
 
 
@@ -84,8 +84,8 @@ We explore different options seeking to find a better score.<br/>
 )
 - [SQL queries](sql_file/credit_card_data.sql)<br/> 
 - Tableau <br/> 
-[Tableau dashboard](https://public.tableau.com/profile/karina.condeixa#!/vizhome/Data-Mid-Bootcamp-Project-Classification2_16190361733800/Dashboard1)<br/> 
-[Tableau_questions](https://public.tableau.com/profile/davis.pudans#!/vizhome/Case-study-classification-questions/Question8)
+[Tableau dashboard](https://public.tableau.com/profile/karina.condeixa#!/vizhome/Data-Mid-Bootcamp-Project-Classification2_16190361733800/Dashboard_1?publish=yes)<br/> 
+[Tableau questions](https://public.tableau.com/profile/davis.pudans#!/vizhome/Case-study-classification-questions/Question8)
 
 - Python <br/> 
 [hypothesis 1](python_files/case_study_classification.ipynb): data cleaning and data wrangling<br/> 
@@ -112,7 +112,7 @@ Regarding Tableau, there was almost no distinct pattern that separated customers
 
 ## Tools
 
-<img src="images/jupyter.png" width="100"/> <img src="images/python.png" width="100"/> <img src="images/tableau.png"  width="100"/> <img src="images/mysql_workbench.png" width="100"/> <img src="images/dbeaver.png" width="100"/> <img src="images/vsc.png" width="100"/>  
+<img src="images/jupyter.png" width="100"/> <img src="images/python.png" width="200"/> <img src="images/tableau.png"  width="120"/> <img src="images/mysql_workbench.png" width="200"/> <img src="images/dbeaver.png" width="200"/> <img src="images/vsc.png" width="100"/>  
 
 
 

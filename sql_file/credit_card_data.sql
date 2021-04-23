@@ -84,22 +84,39 @@ from credit_card_data) ;
 
 # ---------------------------------------------------------------------------------------------------------------
 # 14 What is the number of people who accepted the offer vs number of people who did not?
-SELECT offer_accepted from credit_card_data group by offer_accepted order by count(*) DESC;
+
+SELECT offer_accepted 
+from credit_card_data 
+group by offer_accepted 
+order by count(*) DESC;
+
 # ---------------------------------------------------------------------------------------------------------------
 # 15 What is the difference in average balances of the customers with high credit card rating and low credit card rating?
+
 create view data_on_rating as
 select * from credit_card_data 
 where Rating= 'High' or Rating ='Medium';
  
-SELECT * FROM credit_card_classification.data_on_rating;
-select count(average_balance), Rating from credit_card_classification.data_on_rating where Rating = 'High'; 
+SELECT * 
+FROM credit_card_classification.data_on_rating;
+
+select count(average_balance), Rating 
+from credit_card_classification.data_on_rating 
+where Rating = 'High'; 
 # 792 - count
-select count(average_balance), Rating from credit_card_classification.data_on_rating where Rating = 'Medium';
+
+select count(average_balance), Rating 
+from credit_card_classification.data_on_rating 
+where Rating = 'Medium';
 # 783
 
 # ----------------------------------------------------------------------------------------------------------------
 # 16 In the database, which all types of communication (mailer_type) were used and with how many customers?
-select count(Mailer)as count, Mailer from credit_card_classification.data_on_rating group by Mailer;
+
+select count(Mailer)as count, Mailer 
+from credit_card_classification.data_on_rating 
+group by Mailer;
+
 # ----------------------------------------------------------------------------------------------------------------
 # 17 Provide the details of the customer that is the 11th least Q1_balance in your database.
 # created a view and from there used ranking to get the 11th least q1
