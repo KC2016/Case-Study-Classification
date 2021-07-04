@@ -1,5 +1,6 @@
 # Case Study - Classification
-### Mid-course project: Data Analytics Ironhack Bootcamp, Berlin<br/>
+## What customer will accept a credit card? :bank:
+Mid-course project: Data Analytics Ironhack Bootcamp, Berlin - 2021 <br/>
 
 ![Ironhack logo](images/banking-project.png)
 
