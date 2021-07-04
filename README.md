@@ -114,7 +114,7 @@ Regarding Tableau, there was almost no distinct pattern that separated customers
 
 ## Tools
 
-<img src="images/jupyter.png" width="100"/> <img src="images/python.png" width="200"/> <img src="images/tableau.png"  width="120"/> <img src="images/mysql_workbench.png" width="200"/> <img src="images/dbeaver.png" width="200"/> <img src="images/vsc.png" width="90"/>
+<img src="images/jupyter.png" width="95"/> <img src="images/python.png" width="195"/> <img src="images/tableau.png"  width="115"/> <img src="images/mysql_workbench.png" width="195"/> <img src="images/dbeaver.png" width="195"/> <img src="images/vsc.png" width="85"/>
 
 
 
