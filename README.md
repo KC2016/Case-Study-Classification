@@ -76,6 +76,8 @@ SMOTE: *"SMOTE is an oversampling technique where the synthetic samples are gene
 - Create calculated fields to explore a deeper subset of data.
 - Create a dashboard visualizing data about customer that accepted the bank offer.
 
+![Dashboard](images/Dashboard_1.png)
+
 ### SQL
 - Import the database and creating the table
 - Run queries, create views to analyse the data
